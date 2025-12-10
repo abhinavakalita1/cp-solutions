@@ -39,3 +39,43 @@
 
 # debug information files
 *.dwo
+
+# ---- C++ ----
+*.o
+*.obj
+*.so
+*.exe
+*.out
+*.dll
+*.dylib
+
+# g++
+*.gch
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VSCode
+.vscode/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.env
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---- General ----
+.DS_Store
+*.log
+*.tmp
